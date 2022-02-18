@@ -1,0 +1,90 @@
+.constrol{
+   padding: 30px;
+   width: 500px;
+   border: 1px solid #ccc;
+   height: 200px;
+}
+
+.feel{
+    padding: 24px;
+}
+
+.model_top {
+  height: 40px;
+  border-radius: 5px  5px 0 0 ;
+  position: relative;
+  background-color: #eee;
+}
+
+.model_p .model_top_close {
+  position: absolute;
+  font-size: 16px;
+  cursor: pointer;
+  right: 24px;
+  top: 8px;
+}
+
+.model_top p {
+  height: 40px; 
+  font-weight: bold;
+  line-height: 40px;
+  padding-left: 14px;
+}
+
+.model_bottom .model_btn_box{
+  display: inline-block;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.model_bottom{
+  height: 50px;
+  padding-top: 10px;
+}
+
+.modal_main {
+  position: fixed;
+  z-index: 10000;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #000;
+  border-radius: 2px;
+  width: 600px;
+  color: #fff;
+  border: 1px solid rgb(255 255 255 / 40%);
+  padding: 10px;
+}
+
+.modal_main > .modal_title {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: 1px solid rgb(255 255 255 / 50%);
+  margin: 0 16px;
+}
+
+.modal_main > .modal_content {
+  padding: 16px;
+}
+
+.modal_main > .modal_buttons {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 16px;
+}
+
+.modal_mask {
+  background-color: #000;
+  z-index: 9999;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: opacity 0.3s;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6
+}

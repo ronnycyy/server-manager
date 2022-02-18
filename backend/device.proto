@@ -1,0 +1,18 @@
+message Device {
+  required int32 id = 1;
+  required string type = 2;
+  required string name = 3;
+  required int32 online = 4;
+  required string ip = 5;
+  required string mac = 6;
+  required string createdTime = 7;
+}
+
+message Response {
+  repeated Device devices = 1;
+}
+
+message Request {
+  required int32 sortType = 1;
+  required int32 filtType = 2;
+}

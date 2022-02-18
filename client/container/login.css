@@ -1,0 +1,48 @@
+.login-container {
+  position: relative;
+  background-color: #4B4F58;
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-block {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 600px;
+  height: 400px;
+  margin-left: -300px;
+  margin-top: -200px;
+  background-color: #083756;
+  padding: 17px;
+  border: 2px solid rgb(255 255 255 / 70%);
+  border-radius: 5px;
+}
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.login-header img {
+  width: 20%;
+}
+
+.login-header h3 {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.login-header span {
+  color: #FFF;
+  font-size: 16px;
+}
+
+.login-button {
+  width: 100%;
+  margin-top: 7px;
+}

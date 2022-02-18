@@ -1,0 +1,80 @@
+#components-layout-demo-responsive .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.site-layout-sub-header-background {
+  background: #fff;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.myHeader {
+  display: flex;
+  align-items: center;
+  padding: 0 1rem;
+  height: 55px;
+}
+
+.myHeader > img {
+  height: 55px;
+}
+
+.myHeader > h3 {
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.myHeader > span {
+  transform: translate(4px,5px);
+}
+
+.myBody {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: calc(100vh - 55px);
+}
+
+.myBody > nav {
+  background-color: #000;
+  min-width: 200px;
+}
+
+.myBody > nav > a {
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  text-align: left;
+  padding: 0 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.myBody > nav > a:hover {
+  color: yellow;
+}
+
+.myBody > nav > a::after {
+  content: "";
+  position: absolute;
+  left: 9px;
+  bottom: 6px;
+  height: 1px;
+  width: 76%;
+  background-color: rgb(255 255 255 / 30%);
+}
+
+.myBody > .myContent {
+  flex: 1;
+  overflow: auto;
+  background-color: #4B4F58;
+  padding: 0.5rem;
+}

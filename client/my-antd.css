@@ -1,0 +1,9 @@
+.ant-layout.ant-layout-has-sider > .ant-layout, .ant-layout.ant-layout-has-sider > .ant-layout-content {
+  height: 100vh;
+  overflow: auto;
+}
+
+.home .g2-html-annotation {
+  font-size: 22px !important;
+  color: #52c41a;
+}

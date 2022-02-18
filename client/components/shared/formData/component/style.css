@@ -1,0 +1,27 @@
+.form-item-name{
+    height: 24px;
+    line-height: 24px;
+}
+
+.form-item{
+    color: #fff;
+}
+
+.form-message{
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+}
+
+.form-input{
+    border: 1px solid #ccc;
+    height: 35px;
+    border-radius:5px ;
+    width: 200px;
+}
+
+.form-select-option{
+    width: 200px;
+    height: 35px;
+    background-color: #fff;
+}

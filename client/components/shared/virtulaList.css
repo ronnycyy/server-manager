@@ -1,0 +1,36 @@
+.list_box {
+  /* left-top-bottom-right 构造了一个自填充的高度 */
+  position: fixed;
+  left:0;
+  top:60px;
+  overflow: scroll;
+  bottom:0;
+  right: 0;  
+}
+
+.scroll_hold {
+  position: absolute;
+  left:0;
+  top:0;
+  right: 0;
+}
+
+.scroll_box {
+  overflow: auto;
+  position: relative;
+}
+
+.item {
+  list-style: none;
+  background-color: #3876fcf8;
+  padding: 10px 20px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  margin-left: 24px;
+  margin-right: 24px;
+  font-weight: bold;
+  border-radius:10px ;
+}

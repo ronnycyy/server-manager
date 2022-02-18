@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>布局</title>
+  <style>
+    body,
+    h1,
+    h3 {
+      background-color: #000;
+      color: #aaa
+    }
+
+    .left {
+      background-color: purple;
+      width: 200px;
+    }
+
+    .right {
+      background-color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>左侧200px 右侧自适应宽度 写出所有解法</h1>
+
+  <div>
+    <h3>解法1 flex</h3>
+    <div style="display: flex;">
+      <div class="left">left</div>
+      <div class="right" style="flex: 1;">right</div>
+    </div>
+  </div>
+
+  <div>
+    <h3>解法2 float</h3>
+    <div style="overflow: hidden;">
+      <div class="left" style="float:left;">left</div>
+      <div class="right" style="margin-left: 200px;">right</div>
+    </div>
+  </div>
+
+  <div>
+    <h3>解法3 position</h3>
+    <div style="position: relative">
+      <div class="left" style="display: inline-block;">left</div>
+      <div class="right" style="
+          position: absolute;
+          left: 200px;
+          display: inline-block;
+          width: calc(100% - 200px);">right</div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
